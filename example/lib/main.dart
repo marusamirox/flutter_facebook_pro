@@ -3,7 +3,7 @@ import 'dart:io' show Platform;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_facebook_pro/flutter_facebook_sdk.dart';
+import 'package:flutter_facebook_pro/flutter_facebook_pro.dart';
 
 void main() {
   runApp(MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatefulWidget {
 
 class _MyAppState extends State<MyApp> {
   String _deepLinkUrl = 'Unknown';
-  FlutterFacebookSdk? facebookDeepLinks;
+  FlutterFacebookPro? facebookDeepLinks;
   bool isAdvertisingTrackingEnabled = false;
 
   @override
@@ -30,7 +30,7 @@ class _MyAppState extends State<MyApp> {
     String? deepLinkUrl;
     // Platform messages may fail, so we use a try/catch PlatformException.
     try {
-      facebookDeepLinks = FlutterFacebookSdk();
+      facebookDeepLinks = FlutterFacebookPro();
       facebookDeepLinks!.onDeepLinkReceived!.listen((event) {
         setState(() {
           _deepLinkUrl = event;

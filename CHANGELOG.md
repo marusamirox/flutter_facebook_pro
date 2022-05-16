@@ -23,3 +23,11 @@
 ## 1.0.0
 
 - Migrate to null safety.
+
+## 1.0.1
+
+- Fixed kt namings
+
+## 1.0.2
+
+- Fixed package namings

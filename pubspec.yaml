@@ -1,6 +1,6 @@
 name: flutter_facebook_pro
 description: A flutter plugin to get facebook deep links and log app events using the latest Facebook SDK to include support for iOS 14
-version: 1.0.0
+version: 1.0.2
 homepage: https://github.com/marusamirox/flutter_facebook_pro
 
 environment:
@@ -32,7 +32,7 @@ flutter:
     platforms:
       android:
         pluginClass: FlutterFacebookSdkPlugin
-        package: app.dev.flutter_facebook_sdk
+        package: app.dev.flutter_facebook_pro
       # android:
       #   pluginClass: FlutterFacebookSdkPlugin
       ios:

@@ -4,14 +4,14 @@ import 'package:flutter/services.dart';
 /// A singleton class for plugin
 /// so that multiple streams dont open up
 
-class FlutterFacebookSdk {
-  static final FlutterFacebookSdk? _singleton = FlutterFacebookSdk._internal();
+class FlutterFacebookPro {
+  static final FlutterFacebookPro? _singleton = FlutterFacebookPro._internal();
 
-  factory FlutterFacebookSdk() {
+  factory FlutterFacebookPro() {
     return _singleton!;
   }
 
-  FlutterFacebookSdk._internal();
+  FlutterFacebookPro._internal();
 
   /// Method Channel Initilization to register method calls
   static const MethodChannel _channel =
