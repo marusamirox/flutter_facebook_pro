@@ -2,8 +2,8 @@ import Flutter
 import UIKit
 import FBSDKCoreKit
 
-let PLATFORM_CHANNEL = "flutter_facebook_sdk/methodChannel"
-let EVENTS_CHANNEL = "flutter_facebook_sdk/eventChannel"
+let PLATFORM_CHANNEL = "flutter_facebook_pro/methodChannel"
+let EVENTS_CHANNEL = "flutter_facebook_pro/eventChannel"
 
 public class SwiftFlutterFacebookSdkPlugin: NSObject, FlutterPlugin, FlutterStreamHandler {
     

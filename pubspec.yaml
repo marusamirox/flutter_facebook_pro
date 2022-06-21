@@ -17,7 +17,7 @@ dev_dependencies:
 
 # flutter:
 #   plugin:
-#     androidPackage: saad.farhan.flutter_facebook_sdk
+#     androidPackage: saad.farhan.flutter_facebook_pro
 #     pluginClass: FlutterFacebookSdkPlugin
 # # For information on the generic Dart part of this file, see the
 # # following page: https://dart.dev/tools/pub/pubspec

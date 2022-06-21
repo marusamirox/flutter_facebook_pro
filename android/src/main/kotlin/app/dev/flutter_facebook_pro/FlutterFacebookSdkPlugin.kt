@@ -41,8 +41,8 @@ class FlutterFacebookSdkPlugin : FlutterPlugin, MethodCallHandler, StreamHandler
 
 
     private var deepLinkUrl: String = "Saad Farhan"
-    private var PLATFORM_CHANNEL: String = "flutter_facebook_sdk/methodChannel"
-    private var EVENTS_CHANNEL: String = "flutter_facebook_sdk/eventChannel"
+    private var PLATFORM_CHANNEL: String = "flutter_facebook_pro/methodChannel"
+    private var EVENTS_CHANNEL: String = "flutter_facebook_pro/eventChannel"
     private var queuedLinks: List<String> = emptyList()
     private var eventSink: EventSink? = null
     private var context: Context? = null
